@@ -1,0 +1,57 @@
+# Python __pycache__ und Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuelle Umgebungen
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# VS Code & andere IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Betriebssystem-spezifisches
+.DS_Store
+Thumbs.db
+
+# SQLite Datenbank (optional – wenn du in Produktion eine echte DB nutzt)
+db.sqlite3
+
+# Migrations-Caches (aber nicht die Migrations selbst!)
+*.pyc
+*.log
+
+# Static / media cache (optional – je nach Setup)
+staticfiles/
+media/
+static/
+
+# Coverage/Test Dateien
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Django-Spezifisches
+*.mo
+*.pot
+
+# pytest
+.cache/
+
+# pip freeze output (falls du sowas speicherst)
+requirements.txt~
+
+# mypy/pyright/cache
+.mypy_cache/
+.pyright/
